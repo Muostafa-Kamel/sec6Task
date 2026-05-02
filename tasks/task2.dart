@@ -11,7 +11,7 @@ class House{
 
   House({required this.id,required this.name,required this.price});
 
-  // void printHouseInfo(){
-  //   print("\t\t\tHouse Info:\nID: $id\nName: $name\nprice: $price\n------");
-  // }
+   void printHouseInfo(List houseInfo){
+     print("\t\t\tHouse Info:\nID: ${houseInfo[0]}\nName: ${houseInfo[1]}\nprice: ${houseInfo[2]}\n------");
+   }
 }

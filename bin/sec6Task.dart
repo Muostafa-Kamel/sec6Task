@@ -18,17 +18,17 @@ void main(){
   housesList.add(house1.id);
   housesList.add(house1.name);
   housesList.add(house1.price);
-  print("\t\t\tHouse Info:\nID: ${housesList[0]}\nName: ${housesList[1]}\nprice: ${housesList[2]}\n------");
+  house1.printHouseInfo(housesList);
 
   housesList.add(house2.id);
   housesList.add(house2.name);
   housesList.add(house2.price);
-  print("\t\t\tHouse Info:\nID: ${housesList[0]}\nName: ${housesList[1]}\nprice: ${housesList[2]}\n------");
+  house2.printHouseInfo(housesList);
 
   housesList.add(house3.id);
   housesList.add(house3.name);
   housesList.add(house3.price);
-  print("\t\t\tHouse Info:\nID: ${housesList[0]}\nName: ${housesList[1]}\nprice: ${housesList[2]}\n------");
+  house3.printHouseInfo(housesList);
 
   print("_________________________________________________________");
 
