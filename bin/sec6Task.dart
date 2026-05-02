@@ -14,9 +14,22 @@ void main(){
   var house1 = House(id: "Haram1", name: "Studio", price: 250000);
   var house2 = House(id: "Miser2", name: "Department", price: 1800000);
   var house3 = House(id: "October3", name: "Villa", price: 16000000);
-  house1.printHouseInfo();
-  house2.printHouseInfo();
-  house3.printHouseInfo();
+  var housesList = [];
+  housesList.add(house1.id);
+  housesList.add(house1.name);
+  housesList.add(house1.price);
+  print("\t\t\tHouse Info:\nID: ${housesList[0]}\nName: ${housesList[1]}\nprice: ${housesList[2]}\n------");
+
+  housesList.add(house2.id);
+  housesList.add(house2.name);
+  housesList.add(house2.price);
+  print("\t\t\tHouse Info:\nID: ${housesList[0]}\nName: ${housesList[1]}\nprice: ${housesList[2]}\n------");
+
+  housesList.add(house3.id);
+  housesList.add(house3.name);
+  housesList.add(house3.price);
+  print("\t\t\tHouse Info:\nID: ${housesList[0]}\nName: ${housesList[1]}\nprice: ${housesList[2]}\n------");
+
   print("_________________________________________________________");
 
 
